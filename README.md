@@ -44,15 +44,14 @@ Q2. Une question de taille !
 &nbsp;  
 
 ### Exercice 3 : Requêtage
-Q1. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n56 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols).
-Q2. Quelle requête vous permet de savoir que ce re-calcul est parfaitement exact ?
-Q3. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n74 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols).
-Q4. Quelle requête vous permet de savoir que ce re-calcul est parfaitement exact ?
-Q5. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n76 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols). A partir de combien de décimales ces données sont exactes ?
-Q6. Fournir la même requête sur vos tables ventilées
-Q7. Ecrire une requête qui, à partir de import affiche la n81 et la manière de la recalculer. A partir de combien de
-  décimales ces données sont exactes ?
-Q8. Fournir la même requête sur vos tables ventilées
+Q1. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n56 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols).  
+Q2. Quelle requête vous permet de savoir que ce re-calcul est parfaitement exact ?  
+Q3. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n74 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols).  
+Q4. Quelle requête vous permet de savoir que ce re-calcul est parfaitement exact ?  
+Q5. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n76 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols). A partir de combien de décimales ces données sont exactes ?  
+Q6. Fournir la même requête sur vos tables ventilées.  
+Q7. Ecrire une requête qui, à partir de import affiche la n81 et la manière de la recalculer. A partir de combien de décimales ces données sont exactes ?  
+Q8. Fournir la même requête sur vos tables ventilées.  
 
 ---
 

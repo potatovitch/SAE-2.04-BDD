@@ -15,7 +15,7 @@ Q1: Analyse du fichier récupéré
      > C’est la **3ème colonne** qui s’appelle _Code UAI de l'établissement_.  
      
   5. Quelle colonne identifie une formation ? (numéro et nom de col)  
-      > C’est la **10ème colonnes** qui s’appelle _Filière de formation_.  
+      > C’est la **14ème colonnes** qui s’appelle _Filière de formation_.  
 
   6. Combien de lignes font référence à notre BUT Informatique ?
       > Il y a **1 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep 'BUT - Informatique' | grep 'Lille'| wc -l` donc la commande que l'on utilise est `cat nomDuFichier.csv | grep ‘BUT - Informatique’ | wc -l`.  

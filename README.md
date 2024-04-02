@@ -18,7 +18,7 @@ Q1: Analyse du fichier récupéré
       > C’est la **14ème colonnes** qui s’appelle _Filière de formation_.  
 
   6. Combien de lignes font référence à notre BUT Informatique ?
-      > Il y a **1 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep 'BUT - Informatique' | grep 'Lille'| wc -l` donc la commande que l'on utilise est `cat nomDuFichier.csv | grep ‘BUT - Informatique’ | wc -l`.  
+      > Il y a **1 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep 'BUT - Informatique' | grep 'Lille'| wc -l` donc la commande que l'on utilise est `cat nomDuFichier.csv | grep ‘BUT - Informatique’ | grep 'Lille' | wc -l`.  
       
   7. Quelle colonne identifie un département ? (numéro et nom)  
       > C’est la **5ème colonne** qui se nomme _Code départemental de l’établissement_.    

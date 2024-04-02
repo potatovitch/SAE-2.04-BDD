@@ -11,7 +11,7 @@ Q1: Analyse du fichier récupéré
   7. Quelle colonne identifie un département ? (numéro et nom) 
   8. Comment envisagez vous importer ces données ?  
   9. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
-
+&nbsp;  
 Q2. Importer les données  
   1. Fournir un fichier dico.xls permettant la correspondance entre les numéros de colonnes et les noms du fichier         initial. Expliquez comment vous vous y êtes pris pour le constituer.  
   2. Créer une table import permettant l’importation de ces données (fournir le code)  
@@ -25,8 +25,8 @@ Q2. Importer les données
     * (d) Combien il y a de formations pour notre IUT ?  
     * (e) Quel est le code du BUT Informatique de l’unversité de Lille ? 
     * (f) Citez 5 colonnes contenant des valeurs nulles   
-
-
+&nbsp;  
+&nbsp;  
 ### Exo 2 : Ventiler les données
 Q1. Normalisation des données
   1. Fournir le MCD correspondant à votre structuration

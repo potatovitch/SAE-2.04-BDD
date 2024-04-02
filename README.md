@@ -2,16 +2,21 @@
 
 ### Exo1: Comprendre les Données  
 Q1: Analyse du fichier récupéré  
-  1. Combien y-a t-il de lignes ? Justifiez !
-     > `wc -l <fichier>` donc `wc -l fr-esr-parcoursup.csv`
-  3. Que représente une ligne ?   
-  4. Combien y-a t-il de colonnes ? Justifiez !  
-  5. Quelle colonne identifie un établissement ? (numéro et nom de col)  
-  6. Quelle colonne identifie une formation ? (numéro et nom de col)  
-  7. Combien de lignes font référence à notre BUT Informatique ?  
-  8. Quelle colonne identifie un département ? (numéro et nom) 
-  9. Comment envisagez vous importer ces données ?  
-  10. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
+  1. Combien y-a t-il de lignes ? Justifiez !  
+     > `wc -l <fichier>` donc la commande est `wc -l fr-esr-parcoursup.csv`
+     
+  3. Que représente une ligne ?  
+     > chaque ligne représente une école que l'on retrouve dans Parcoursup.  
+     
+  5. Combien y-a t-il de colonnes ? Justifiez !  
+     > Il y a 118 colonnes. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`  
+     
+  7. Quelle colonne identifie un établissement ? (numéro et nom de col)  
+  8. Quelle colonne identifie une formation ? (numéro et nom de col)  
+  9. Combien de lignes font référence à notre BUT Informatique ?  
+  10. Quelle colonne identifie un département ? (numéro et nom) 
+  11. Comment envisagez vous importer ces données ?  
+  12. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
 &nbsp;
 
 Q2. Importer les données  

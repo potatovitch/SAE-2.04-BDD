@@ -15,10 +15,12 @@ Q1: Analyse du fichier récupéré
      > C’est la **3ème colonne** qui s’appelle _Code UAI de l'établissement_  
      
   9. Quelle colonne identifie une formation ? (numéro et nom de col)  
-  10. Combien de lignes font référence à notre BUT Informatique ?  
-  11. Quelle colonne identifie un département ? (numéro et nom) 
-  12. Comment envisagez vous importer ces données ?  
-  13. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
+      > C’est la **10ème colonnes** qui s’appelle _Filière de formation_  
+
+  11. Combien de lignes font référence à notre BUT Informatique ?  
+  12. Quelle colonne identifie un département ? (numéro et nom) 
+  13. Comment envisagez vous importer ces données ?  
+  14. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
 &nbsp;
 
 Q2. Importer les données  

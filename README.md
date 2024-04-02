@@ -9,14 +9,16 @@ Q1: Analyse du fichier récupéré
      > chaque ligne représente une école que l'on retrouve dans Parcoursup.  
      
   5. Combien y-a t-il de colonnes ? Justifiez !  
-     > Il y a 118 colonnes. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`  
+     > Il y a 118 colonnes. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`   
      
   7. Quelle colonne identifie un établissement ? (numéro et nom de col)  
-  8. Quelle colonne identifie une formation ? (numéro et nom de col)  
-  9. Combien de lignes font référence à notre BUT Informatique ?  
-  10. Quelle colonne identifie un département ? (numéro et nom) 
-  11. Comment envisagez vous importer ces données ?  
-  12. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
+     > C’est la **3ème colonne qui s’appelle** _Code UAI de l'établissement_  
+     
+  9. Quelle colonne identifie une formation ? (numéro et nom de col)  
+  10. Combien de lignes font référence à notre BUT Informatique ?  
+  11. Quelle colonne identifie un département ? (numéro et nom) 
+  12. Comment envisagez vous importer ces données ?  
+  13. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
 &nbsp;
 
 Q2. Importer les données  

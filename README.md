@@ -30,9 +30,10 @@ Q2. Importer les données
 &nbsp;
 
 ### Exo 2 : Ventiler les données
-Q1. Normalisation des données
-  1. Fournir le MCD correspondant à votre structuration
-  2. Ecrire le script parcourssup.sql qui permet de réaliser toutes les actions d’importation et de                        création/remplissage des différentes parcourssup.
+Q1. Normalisation des données  
+  1. Fournir le MCD correspondant à votre structuration  
+  2. Ecrire le script parcourssup.sql qui permet de réaliser toutes les actions d’importation et de                        création/remplissage des différentes parcourssup.  
+&nbsp;  
 
 Q2. Une question de taille !
   1. Quelle taille en octet fait le fichier récupéré ? 

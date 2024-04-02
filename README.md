@@ -20,9 +20,11 @@ Q1: Analyse du fichier récupéré
   11. Combien de lignes font référence à notre BUT Informatique ?
       > Il y a **49 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep ‘BUT - Informatique’ | wc -l` donc la commande que l'on utilise est `cat nomDuFichier.csv | grep ‘BUT - Informatique’ | wc -l`.  
       
-  13. Quelle colonne identifie un département ? (numéro et nom) 
-  14. Comment envisagez vous importer ces données ?  
-  15. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
+  13. Quelle colonne identifie un département ? (numéro et nom)  
+      > C’est la **5ème colonne** qui se nomme _Code départemental de l’établissement_.    
+
+  15. Comment envisagez vous importer ces données ?  
+  16. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
 &nbsp;
 
 Q2. Importer les données  

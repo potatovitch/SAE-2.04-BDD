@@ -53,7 +53,7 @@ Q8. Fournir la même requête sur vos tables ventilées
 ---
 
 ### À rendre pour la partie BDD
-Une archive zip déposée sur Moodle le 20 avril maxi avec
+Une archive zip déposée sur Moodle le 20 avril maxi avec :
 1. Un rapport explicatif en PDF avec une page de garde (titre, logos,noms des étudiants) ainsi que le MCD, la réponse
   aux différentes questions de ce document (notamment (mais pas uniquement) Exo1 Q1, Exo1 Q2, Exo2 Q2 et Exo3) et les    commentaires que vous jugerez necessaires.
 2. Le fichier dico.xls qui contient les correspondances de noms de colonnes

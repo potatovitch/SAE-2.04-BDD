@@ -5,26 +5,26 @@ Q1: Analyse du fichier récupéré
   1. Combien y-a t-il de lignes ? Justifiez !  
      > `wc -l <fichier.csv>` donc la commande est `wc -l fr-esr-parcoursup.csv`.  
      
-  3. Que représente une ligne ?  
+  2. Que représente une ligne ?  
      > chaque ligne représente **une école** que l'on retrouve dans Parcoursup.  
      
-  5. Combien y-a t-il de colonnes ? Justifiez !  
+  3. Combien y-a t-il de colonnes ? Justifiez !  
      > Il y a **118 colonnes**. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier.csv> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`.  
      
-  7. Quelle colonne identifie un établissement ? (numéro et nom de col)  
+  4. Quelle colonne identifie un établissement ? (numéro et nom de col)  
      > C’est la **3ème colonne** qui s’appelle _Code UAI de l'établissement_.  
      
-  9. Quelle colonne identifie une formation ? (numéro et nom de col)  
+  5. Quelle colonne identifie une formation ? (numéro et nom de col)  
       > C’est la **10ème colonnes** qui s’appelle _Filière de formation_.  
 
-  11. Combien de lignes font référence à notre BUT Informatique ?
+  6. Combien de lignes font référence à notre BUT Informatique ?
       > Il y a **1 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep 'BUT - Informatique' | grep 'Lille'| wc -l` donc la commande que l'on utilise est `cat nomDuFichier.csv | grep ‘BUT - Informatique’ | wc -l`.  
       
-  13. Quelle colonne identifie un département ? (numéro et nom)  
+  7. Quelle colonne identifie un département ? (numéro et nom)  
       > C’est la **5ème colonne** qui se nomme _Code départemental de l’établissement_.    
 
-  15. Comment envisagez vous importer ces données ?  
-  16. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
+  8. Comment envisagez vous importer ces données ?  
+  9. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
 &nbsp;
 
 Q2. Importer les données  

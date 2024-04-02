@@ -35,12 +35,13 @@ Q1. Normalisation des données
   2. Ecrire le script parcourssup.sql qui permet de réaliser toutes les actions d’importation et de                        création/remplissage des différentes parcourssup.  
 &nbsp;  
 
-Q2. Une question de taille !
-  1. Quelle taille en octet fait le fichier récupéré ? 
-  2. Quelle taille en octet fait la table import ? 
-  3. Quelle taille en octet fait la somme des tables créées ?
-  4. Quelle taille en octet fait la somme des tailles des fichiers exportés correspondant à ces tables ?
-
+Q2. Une question de taille !  
+  1. Quelle taille en octet fait le fichier récupéré ?  
+  2. Quelle taille en octet fait la table import ?   
+  3. Quelle taille en octet fait la somme des tables créées ?  
+  4. Quelle taille en octet fait la somme des tailles des fichiers exportés correspondant à ces tables ?  
+&nbsp;  
+&nbsp;  
 
 ### Exercice 3 : Requêtage
 Q1. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n56 et le re-calcul de celle-ci à        partir d’autres colonnes de import (2 cols).

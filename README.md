@@ -3,7 +3,7 @@
 ### Exo1: Comprendre les Données  
 Q1: Analyse du fichier récupéré  
   1. Combien y-a t-il de lignes ? Justifiez !  
-     > `wc -l <fichier.csv>` donc la commande est `wc -l fr-esr-parcoursup.csv`.  
+     > Il y a **13870 lignes** entête incluse, `wc -l <fichier.csv>` donc la commande est `wc -l fr-esr-parcoursup.csv`.  
      
   2. Que représente une ligne ?  
      > chaque ligne représente **une école** que l'on retrouve dans Parcoursup.  

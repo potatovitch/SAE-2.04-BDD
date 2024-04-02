@@ -12,7 +12,7 @@ Q1: Analyse du fichier récupéré
      > Il y a 118 colonnes. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`   
      
   7. Quelle colonne identifie un établissement ? (numéro et nom de col)  
-     > C’est la **3ème colonne qui s’appelle** _Code UAI de l'établissement_  
+     > C’est la **3ème colonne** qui s’appelle _Code UAI de l'établissement_  
      
   9. Quelle colonne identifie une formation ? (numéro et nom de col)  
   10. Combien de lignes font référence à notre BUT Informatique ?  

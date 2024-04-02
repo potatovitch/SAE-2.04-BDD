@@ -24,7 +24,9 @@ Q1: Analyse du fichier récupéré
       > C’est la **5ème colonne** qui se nomme _Code départemental de l’établissement_.    
 
   8. Comment envisagez vous importer ces données ?  
-  9. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)  
+  9. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)
+      > * Il y a des doublons dans les _filières de formation_
+      > * ... // à rajouter zebi.
 &nbsp;
 
 Q2. Importer les données  

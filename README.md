@@ -63,3 +63,8 @@ Une archive zip déposée sur Moodle le 20 avril maxi avec :
 2. Le fichier dico.xls qui contient les correspondances de noms de colonnes
 3. Le fichier parcourssup.sql qui permet de tout recréer
 4. Le fichier requetes.sql qui permet d’exécuter vos différentes requêtes.
+
+---
+
+### Ressources
+* [link Google doc]()

@@ -6,10 +6,10 @@ Q1: Analyse du fichier récupéré
      > `wc -l <fichier>` donc la commande est `wc -l fr-esr-parcoursup.csv`
      
   3. Que représente une ligne ?  
-     > chaque ligne représente une école que l'on retrouve dans Parcoursup.  
+     > chaque ligne représente **une école** que l'on retrouve dans Parcoursup.  
      
   5. Combien y-a t-il de colonnes ? Justifiez !  
-     > Il y a 118 colonnes. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`   
+     > Il y a **118 colonnes**. la commande pour le trouver le nombre de colonnes est `head -n 1 <fichier> | tr ';' '\n' | wc -l` donc la commande que l'on utilise est `head -n 1 fr-esr-parcoursup.csv | tr ';' '\n' | wc -l`   
      
   7. Quelle colonne identifie un établissement ? (numéro et nom de col)  
      > C’est la **3ème colonne** qui s’appelle _Code UAI de l'établissement_  

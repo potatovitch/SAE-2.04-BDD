@@ -27,7 +27,8 @@ Q2. Importer les données
     * (e) Quel est le code du BUT Informatique de l’unversité de Lille ? 
     * (f) Citez 5 colonnes contenant des valeurs nulles   
 &nbsp;  
-&nbsp;  
+&nbsp;
+
 ### Exo 2 : Ventiler les données
 Q1. Normalisation des données
   1. Fournir le MCD correspondant à votre structuration

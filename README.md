@@ -18,13 +18,15 @@ Q1: Analyse du fichier récupéré
       > C’est la **14ème colonnes** qui s’appelle _Filière de formation_.  
 
   6. Combien de lignes font référence à notre BUT Informatique ?
-      > Il y a **1 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep 'BUT - Informatique' | grep 'Lille'| wc -l` donc la commande que l'on utilise est `cat nomDuFichier.csv | grep ‘BUT - Informatique’ | grep 'Lille' | wc -l`.  
+      > Il y a **1 lignes**. La commande pour connaitre le nombre de ligne qui fait référence au BUT - Informatique est `cat <fichier.csv> | grep 'BUT - Informatique' | grep 'Lille'| wc -l` donc la commande que l'on utilise est `cat fr-esr-                    parcoursup.csv | grep ‘BUT - Informatique’ | grep 'Lille' | wc -l`.  
       
   7. Quelle colonne identifie un département ? (numéro et nom)  
       > C’est la **5ème colonne** qui se nomme _Code départemental de l’établissement_.    
 
-  8. Comment envisagez vous importer ces données ?  
-  9. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)
+  8. Comment envisagez vous importer ces données ?
+      > la commande pour importer des données est `\copy <nomTable> <nomFichier> DELIMITER ';'` donc la commande que l'on utilise `\copy <import> <fr-esr-parcoursup.csv> DELIMITER ';'`
+      
+  10. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)
       > * Il y a des doublons dans les _filières de formation_
       > * ... // à rajouter zebi.
 &nbsp;

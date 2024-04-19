@@ -77,13 +77,13 @@ Q1. Normalisation des données
 
 Q2. Une question de taille !  
   1. Quelle taille en octet fait le fichier récupéré ?  
-     > 12423586
+     > 12423586 octets  
      
   3. Quelle taille en octet fait la table import ?  
-     > 18644992  
+     > 18644992 octets  
      
   5. Quelle taille en octet fait la somme des tables créées ?  
-     > 983040  
+     > 983040 octets  
   7. Quelle taille en octet fait la somme des tailles des fichiers exportés correspondant à ces tables ?  
 &nbsp;  
 &nbsp;  

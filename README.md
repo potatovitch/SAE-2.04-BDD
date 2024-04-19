@@ -52,17 +52,17 @@ Q2. Importer les données
        
   9. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
     * (a) Combien il y a de formations gérés par ParcourSup ?  
-       &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre de ligne de la table import" FROM import;`  
+       &nbsp; &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre de ligne de la table import" FROM import;`  
     * (b) Combien il y a d’établissements gérés par ParcourSup ?  
-       &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(DISTINCT n3) AS "Nombre d'établissement" FROM import;`  
+       &nbsp; &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(DISTINCT n3) AS "Nombre d'établissement" FROM import;`  
     * (c) Combien il y a de formations pour l’université de Lille ?  
-       &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre formation Université de Lille" FROM import WHERE n4 LIKE '%Université de Lille%';`  
+       &nbsp; &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre formation Université de Lille" FROM import WHERE n4 LIKE '%Université de Lille%';`  
     * (d) Combien il y a de formations pour notre IUT ?  
-       &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre de formation de notre IUT" FROM import WHERE n4 = 'Institut universitaire de technologie de Lille - Université de Lille';`  
+       &nbsp; &nbsp; **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre de formation de notre IUT" FROM import WHERE n4 = 'Institut universitaire de technologie de Lille - Université de Lille';`  
     * (e) Quel est le code du BUT Informatique de l’unversité de Lille ?  
-       &nbsp; **_gpaslenombretucalculezebi_** `SELECT n3 AS "Code du BUT informatique de l'Université de Lille" FROM import WHERE n4 = 'Institut universitaire de technologie de Lille - Université de Lille' AND n10 = 'BUT - Informatique';`  
+       &nbsp; &nbsp; **_gpaslenombretucalculezebi_** `SELECT n3 AS "Code du BUT informatique de l'Université de Lille" FROM import WHERE n4 = 'Institut universitaire de technologie de Lille - Université de Lille' AND n10 = 'BUT - Informatique';`  
     * (f) Citez 5 colonnes contenant des valeurs nulles  
-       &nbsp; **_gpaslenombretucalculezebi_** `\echo "5 colonnes avec des valeurs nulles : n22, n37, n38, n54, n70"`  
+       &nbsp; &nbsp; **_gpaslenombretucalculezebi_** `\echo "5 colonnes avec des valeurs nulles : n22, n37, n38, n54, n70"`  
 &nbsp;  
 &nbsp;
 

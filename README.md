@@ -33,7 +33,7 @@ Q1: Analyse du fichier récupéré
 
 Q2. Importer les données  
   1. Fournir un fichier dico.xls permettant la correspondance entre les numéros de colonnes et les noms du fichier initial. Expliquez comment vous vous y êtes pris pour le constituer.
-     > le fichier mk_dico.sh qui **créé le fichier** dico.xls est appellé dans parcoursup.sql  
+     > le fichier mk_dico.sh, qui **créé le fichier** dico.xls, est appellé dans parcoursup.sql  
      > il fait **une boucle** qui à chaque tour de boucle _ajoute "n" et l'indice du tour puis ajoute le délimiteur ';'_  
      > il **enlève** ensuite le dernier ';' qui ne sert pas.
      

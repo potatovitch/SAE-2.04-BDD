@@ -43,8 +43,14 @@ Q2. Importer les données
   5. S’assurer que les types de colonnes soient les plus restrictifs possibles (des int pour les colonnes contenant desentiers, des char(x) pour les données textuelles de taille x etc ...)
      > **_ui_**
       
-  7. Remplir cette table avec les données récupérées (fournir le code)  
-  8. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
+  7. Remplir cette table avec les données récupérées (fournir le code)
+     > le code est dans parcoursup.sql dans :
+       * -- département --
+       * -- établissement --
+       * -- formation --
+       * -- candidature --
+       
+  9. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
     * (a) Combien il y a de formations gérés par ParcourSup ?   
     * (b) Combien il y a d’établissements gérés par ParcourSup ?  
     * (c) Combien il y a de formations pour l’université de Lille ?  

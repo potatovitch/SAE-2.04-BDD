@@ -28,7 +28,7 @@ Q1: Analyse du fichier récupéré
       
   10. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)
       > * Il y a **des doublons** dans les _filières de formation_
-      > * il y a de la redondance.
+      > * il y a de la redondance (nombre d'admis neo-bachelier __n56__ qui est en réalité __n57 + n58 + n59__).
 &nbsp;
 
 Q2. Importer les données  

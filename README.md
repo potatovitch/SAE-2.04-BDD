@@ -53,15 +53,15 @@ Q2. Importer les données
   9. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
     * (a) Combien il y a de formations gérés par ParcourSup ?
        `SELECT COUNT(*) AS "Nombre de ligne de la table import" FROM import;`
-    * (b) Combien il y a d’établissements gérés par ParcourSup ?
+    * (b) Combien il y a d’établissements gérés par ParcourSup ?  
        ` `
-    * (c) Combien il y a de formations pour l’université de Lille ?
+    * (c) Combien il y a de formations pour l’université de Lille ?  
        ` `
-    * (d) Combien il y a de formations pour notre IUT ?
+    * (d) Combien il y a de formations pour notre IUT ?  
        ` `
-    * (e) Quel est le code du BUT Informatique de l’unversité de Lille ?
+    * (e) Quel est le code du BUT Informatique de l’unversité de Lille ?  
        ` `
-    * (f) Citez 5 colonnes contenant des valeurs nulles
+    * (f) Citez 5 colonnes contenant des valeurs nulles  
        ` `
 &nbsp;  
 &nbsp;

@@ -51,8 +51,8 @@ Q2. Importer les données
      > * -- candidature --
        
   9. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
-    * (a) Combien il y a de formations gérés par ParcourSup ?
-       **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre de ligne de la table import" FROM import;`
+    * (a) Combien il y a de formations gérés par ParcourSup ?  
+       **_gpaslenombretucalculezebi_** `SELECT COUNT(*) AS "Nombre de ligne de la table import" FROM import;`  
     * (b) Combien il y a d’établissements gérés par ParcourSup ?  
        **_gpaslenombretucalculezebi_** `SELECT COUNT(DISTINCT n3) AS "Nombre d'établissement" FROM import;`  
     * (c) Combien il y a de formations pour l’université de Lille ?  

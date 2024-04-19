@@ -72,7 +72,8 @@ Q1. Normalisation des données
      > c'est parcoursup.mcd  
      
   3. Ecrire le script parcourssup.sql qui permet de réaliser toutes les actions d’importation et de création/remplissage des différentes parcourssup.  
-     > **_ui_**
+     > **_ui_**  
+     
 &nbsp;  
 
 Q2. Une question de taille !  
@@ -84,7 +85,15 @@ Q2. Une question de taille !
      
   5. Quelle taille en octet fait la somme des tables créées ?  
      > 983040 octets  
-  7. Quelle taille en octet fait la somme des tailles des fichiers exportés correspondant à ces tables ?  
+  7. Quelle taille en octet fait la somme des tailles des fichiers exportés correspondant à ces tables ?
+     > 94090 octets commune.csv
+       1681546 octets pour formation.csv
+       308533 octets pour etablissement.csv
+       695369 octets pour effectif_admis.csv
+       632395 octets pour neo_bacheliers_effectif.csv
+       286885 octets pour boursiers_effectif.csv
+       Pour un total de 3698818 octets
+
 &nbsp;  
 &nbsp;  
 

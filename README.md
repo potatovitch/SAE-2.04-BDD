@@ -32,12 +32,16 @@ Q1: Analyse du fichier récupéré
 &nbsp;
 
 Q2. Importer les données  
-  1. Fournir un fichier dico.xls permettant la correspondance entre les numéros de colonnes et les noms du fichier initial. Expliquez comment vous vous y êtes pris pour le constituer.  
-  2. Créer une table import permettant l’importation de ces données (fournir le code)  
-  3. S’assurer que les types de colonnes soient les plus restrictifs possibles (des int pour les colonnes contenant des
+  1. Fournir un fichier dico.xls permettant la correspondance entre les numéros de colonnes et les noms du fichier initial. Expliquez comment vous vous y êtes pris pour le constituer.
+     > le fichier mk_dico.sh qui **créé le fichier** dico.xls est appellé dans parcoursup.sql
+     > il fait **une boucle** qui à chaque tour de boucle _ajoute "n" et l'indice du tour puis ajoute le délimiteur ';'_  
+     > il **enlève** ensuite le dernier ';' qui ne sert pas.
+     
+  3. Créer une table import permettant l’importation de ces données (fournir le code)  
+  4. S’assurer que les types de colonnes soient les plus restrictifs possibles (des int pour les colonnes contenant des
     entiers, des char(x) pour les données textuelles de taille x etc ...)  
-  4. Remplir cette table avec les données récupérées (fournir le code)  
-  5. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
+  5. Remplir cette table avec les données récupérées (fournir le code)  
+  6. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
     * (a) Combien il y a de formations gérés par ParcourSup ?   
     * (b) Combien il y a d’établissements gérés par ParcourSup ?  
     * (c) Combien il y a de formations pour l’université de Lille ?  

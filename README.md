@@ -40,10 +40,11 @@ Q2. Importer les données
   3. Créer une table import permettant l’importation de ces données (fournir le code)
      > `CREATE TEMP TABLE import(n1 INT, n2 TEXT, n3 CHAR(10), n4 TEXT, n5 CHAR(3), n6 TEXT, n7 TEXT, n8 TEXT, n9 TEXT, n10 TEXT, n11 TEXT, n12 TEXT, n13 TEXT, n14 TEXT, n15 TEXT, n16 TEXT, n17 TEXT, n18 INT, n19 INT, n20 INT, n21 INT, n22 INT, n23 INT, n24 INT, n25 INT, n26 INT, n27 INT, n28 INT, n29 INT, n30 INT, n31 INT, n32 INT, n33 INT, n34 INT, n35 INT, n36 INT, n37 INT, n38 INT, n39 INT, n40 INT, n41 INT, n42 INT, n43 INT, n44 INT, n45 INT, n46 INT, n47 INT, n48 INT, n49 INT, n50 INT, n51 FLOAT, n52 FLOAT, n53 FLOAT, n54 FLOAT, n55 INT, n56 INT, n57 INT, n58 INT, n59 INT, n60 INT, n61 INT, n62 INT, n63 INT, n64 INT, n65 INT, n66 FLOAT, n67 INT, n68 INT, n69 INT, n70 INT, n71 INT, n72 INT, n73 INT, n74 FLOAT, n75 FLOAT, n76 FLOAT, n77 FLOAT, n78 FLOAT, n79 FLOAT, n80 FLOAT, n81 FLOAT, n82 FLOAT, n83 FLOAT, n84 FLOAT, n85 FLOAT, n86 FLOAT, n87 FLOAT, n88 FLOAT, n89 FLOAT, n90 FLOAT, n91 FLOAT, n92 FLOAT, n93 FLOAT, n94 FLOAT, n95 FLOAT, n96 FLOAT, n97 FLOAT, n98 FLOAT, n99 FLOAT, n100 FLOAT, n101 FLOAT, n102 TEXT, n103 TEXT, n104 TEXT, n105 TEXT, n106 TEXT, n107 TEXT, n108 TEXT, n109 TEXT, n110 INT, n111 TEXT, n112 TEXT, n113 TEXT, n114 FLOAT, n115 FLOAT, n116 FLOAT, n117 CHAR(6), n118 CHAR(6));`
      
-  5. S’assurer que les types de colonnes soient les plus restrictifs possibles (des int pour les colonnes contenant des
-    entiers, des char(x) pour les données textuelles de taille x etc ...)  
-  6. Remplir cette table avec les données récupérées (fournir le code)  
-  7. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
+  5. S’assurer que les types de colonnes soient les plus restrictifs possibles (des int pour les colonnes contenant desentiers, des char(x) pour les données textuelles de taille x etc ...)
+     > **_ui_**
+      
+  7. Remplir cette table avec les données récupérées (fournir le code)  
+  8. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  
     * (a) Combien il y a de formations gérés par ParcourSup ?   
     * (b) Combien il y a d’établissements gérés par ParcourSup ?  
     * (c) Combien il y a de formations pour l’université de Lille ?  

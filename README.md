@@ -24,11 +24,11 @@ Q1: Analyse du fichier récupéré
       > C’est la **5ème colonne** qui se nomme _Code départemental de l’établissement_.    
 
   8. Comment envisagez vous importer ces données ?
-      > la commande pour importer des données est `\copy <nomTable> <nomFichier> DELIMITER ';'` donc la commande que l'on utilise `\copy <import> <fr-esr-parcoursup.csv> DELIMITER ';'`
+      > la commande pour **importer des données** est `\copy <nomTable> <nomFichier> DELIMITER ';'` donc la commande que l'on utilise `\copy <import> <fr-esr-parcoursup.csv> DELIMITER ';'`
       
   10. Quels problèmes identifiez vous dans ces données initiales ? (il y en a surement plusieurs, expliquez les clairement)
-      > * Il y a des doublons dans les _filières de formation_
-      > * ... // à rajouter zebi.
+      > * Il y a **des doublons** dans les _filières de formation_
+      > * il y a de la redondance.
 &nbsp;
 
 Q2. Importer les données  

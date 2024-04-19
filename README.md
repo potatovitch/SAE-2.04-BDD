@@ -108,6 +108,8 @@ Une archive zip déposée sur Moodle le 20 avril maxi avec :
 ### Ressources
 * [link Google doc Sulli](https://docs.google.com/document/d/1VKuihwp69jx5l_nW6f0fuWjKfM6VWBlpy2XFYw0yvks/edit?hl=fr)
 * [link Google doc Tomichauchocacao](https://docs.google.com/document/d/1CrlNWBCd3kbn-bDUzHO9uyTkWGhqtViBFkW06OsSnIQ/edit)
+* [link Google Doc Tom R](https://docs.google.com/document/d/10zkqb5_JJX0VkCTB7wfoeanwxqDuwzun3aCV1rDVtqk/edit?usp=sharing)
+
 
 ---
 

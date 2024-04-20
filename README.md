@@ -95,7 +95,7 @@ Q2. Une question de taille !
 &nbsp;  
 
 ### Exercice 3 : Requêtage  
-**Réponses dans requete.sh**
+**Réponses dans requete.sh**  
 Q1. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n56 et le re-calcul de celle-ci à partir d’autres colonnes de import (2 cols).  
 Q2. Quelle requête vous permet de savoir que ce re-calcul est parfaitement exact ?  
 Q3. Ecrire une requête qui, à partir de import affiche le contenu de la colonne n74 et le re-calcul de celle-ci à partir d’autres colonnes de import (2 cols).  

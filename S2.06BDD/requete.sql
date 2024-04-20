@@ -1,1 +1,0 @@
-\! ./requete.sh

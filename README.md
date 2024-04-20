@@ -44,7 +44,7 @@ Q2. Importer les données
      > **_ui_**
       
   7. Remplir cette table avec les données récupérées (fournir le code)
-     > le code est dans parcoursup.sql dans :
+     > le code est dans parcoursup.sql dans :  
      > --import--
        
   9. En s’appuyant sur la table import fournir les requêtes et les réponses qui permettent de savoir  

@@ -1,4 +1,4 @@
-# SAE-2.06-BDD
+# SAE-2.04-BDD
 
 ### Exo1: Comprendre les Données  
 Q1: Analyse du fichier récupéré  
